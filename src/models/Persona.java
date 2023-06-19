@@ -8,4 +8,12 @@ public class Persona {
 
     String nome;
     String cognome;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
 }
