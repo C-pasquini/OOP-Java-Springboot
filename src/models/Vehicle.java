@@ -2,7 +2,7 @@ package models;
 
 public abstract class Vehicle{
     protected int speed;
-    int getSpeed(){
+    public int getSpeed(){
         return this.speed;
     }
 
