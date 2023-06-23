@@ -18,6 +18,6 @@ public class ProductController {
         );
     }
 
-    @GetMapping("/product")
-    public Product getProduct(@PathVariable int id, @PathParam("lang") String )
+    //@GetMapping("/product")
+    //public Product getProduct(@PathVariable int id, @PathParam("lang") String name)
 }
