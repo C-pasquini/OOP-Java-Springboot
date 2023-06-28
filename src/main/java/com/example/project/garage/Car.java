@@ -21,4 +21,6 @@ public class Car {
     private String carManufacturer;
     @GeneratedValue
     private double price;
+    @GeneratedValue
+    private double fuel;
 }

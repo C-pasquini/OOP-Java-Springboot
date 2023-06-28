@@ -5,12 +5,13 @@ import com.example.project.garage.Car;
 import java.util.List;
 
 public interface CarService {
-    Car createCar(Car car);
+    public Car createCar(Car car);
 
-    Car getCar(Long id);
-    List<Car> getAllCars();
+    public Car getCar(Long id);
+    public List<Car> getAllCars();
 
-    Car updateCar(Car car);
-
-    void deleteCar(Long id);
+    public List<Car>getCarsByManufacturer(String manufacturer);
+    public Car updateCar(Car car);
+    public void setCarFuelLevelById(Long id, double fuel);
+    public void deleteCar(Long id);
 }
